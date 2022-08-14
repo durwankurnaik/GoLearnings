@@ -22,4 +22,4 @@ func main() {
 	waitGroup.Wait()
 }
 
-// best example of multithreading I have seen so far in golang
+// best use-case of goroutines I have seen so far in golang
