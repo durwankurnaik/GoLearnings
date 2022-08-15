@@ -28,6 +28,7 @@ func (l *linkedList) add(value int) {
 		l.length++
 		return
 	}
+
 	iterator := l.head // we are defining iterator outside for loop because we want to access it later on
 	for ; iterator.next != nil; iterator = iterator.next {
 	} // this gives us the last element of the linked list that we are adding the element to
